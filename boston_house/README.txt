@@ -1,3 +1,16 @@
+Example
+=======
+
+This is an example of enhancement (also called suppression) where tax rate is regressed on business acreage proportion and residential big lot acreage proportion. Because of enhancement, the variance explained by the full model (R^2) is higher than the sum of variance explained in individual models.
+
+See Friedman and Wall (2005). Graphical Views of Suppression and Multicollinearity in Multiple Linear Regression. The American Statistician, 59 (2): 127-136.
+
+
+
+
+Data set
+========
+
 1. Title: Boston Housing Data
 
 2. Sources:
