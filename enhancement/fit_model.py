@@ -10,9 +10,11 @@ import statsmodels.api as sm
 #import matplotlib.pyplot as plt
 
 # Load data
-headers = open('headers.txt','rb').readline().strip().split('\t')
-data = pd.read_csv('housing.csv', header=None)
-data.columns = headers
+#headers = open('headers.csv','rb').readline().strip().split(',')
+#data = pd.read_csv('housing.csv', header=None)
+#data.columns = headers
+data = pd.read_csv('housing.csv')
+
 
 data = data[data.RAD<20] # Limit to "within or near town" homes
 x1 = data.INDUS # Proportion of non-retail business acres per town
